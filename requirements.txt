@@ -1,0 +1,8 @@
+PyYAML>=6.0
+html2text>=2024.2.26
+mammoth>=1.6.0
+python-docx>=1.1.0
+pymysql>=1.1.0
+pypandoc>=1.11
+pypandoc-binary>=1.11
+pymupdf>=1.24.0

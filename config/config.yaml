@@ -1,0 +1,8 @@
+# 路径相对于项目根目录；也可写绝对路径。
+docx_to_md:
+  input_dir: data_input/docx
+  output_dir: data_output/markdown
+
+md_to_docx:
+  input_dir: data_input/markdown
+  output_dir: data_output/docx

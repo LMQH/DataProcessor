@@ -1,0 +1,52 @@
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.DS_Store
+Thumbs.db
+
+# 本地/IDE
+.cursor/
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 项目内 Conda（build_dmg.sh 使用 .conda/bin/python）
+.conda/
+
+# 虚拟环境
+.venv/
+venv/
+env/
+
+# 数据与本地文档（按需保留模板时可改用更细规则）
+data_input/
+data_output/
+dev_doc/
+
+# Python 打包与测试缓存
+*.egg-info/
+.eggs/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+
+# 环境变量（若日后放密钥）
+.env
+.env.local
+.env.*.local
+
+macos_app/DataProcessApp/.build/
+macos_app/DataProcessApp/.swiftpm/
+macos_app/DataProcessApp/DataProcessApp.xcodeproj/xcuserdata/
+
+installer/windows/staging/*.exe
