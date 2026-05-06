@@ -25,10 +25,9 @@ data_input/
 data_output/
 dev_doc/
 
-# Python 打包与测试缓存
+# Python 测试缓存
 *.egg-info/
 .eggs/
-dist/
 build/
 .pytest_cache/
 .mypy_cache/
